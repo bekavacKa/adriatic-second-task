@@ -1,9 +1,15 @@
 import './App.css';
-import AboutUs from './Pages/AboutUs';
+import Navigation from './Components/Navigation/Navigation';
+import AboutUs from './Pages/AboutUs/AboutUs';
 
 function App() {
   return (
-    <AboutUs />
+    <div className="container-lg text-dark">
+      
+      <Navigation />
+      <AboutUs />
+
+    </div>
   );
 }
 
