@@ -1,4 +1,3 @@
-import './App.css';
 import Navigation from './Components/Navigation/Navigation';
 import AboutUs from './Pages/AboutUs/AboutUs';
 
